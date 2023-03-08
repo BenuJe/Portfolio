@@ -85,7 +85,7 @@ export default function Home() {
 
 						<div className="text-center shadow-md p-10 shadow-slate-800 pb-10 rounded-xl my-10 dark:shadow-amber-100 dark:shadow-md">
 							<Image
-								className=" mx-auto  animate-pulse hover:animate-none"
+								className=" mx-auto "
 								src={dossier}
 								width={200}
 								height={200}
@@ -107,7 +107,7 @@ export default function Home() {
 						</div>
 						<div className="text-center  shadow-md shadow-slate-800 p-10 pt rounded-xl my-10 dark:shadow-amber-100 ">
 							<Image
-								className=" mx-auto animate-pulse hover:animate-none"
+								className=" mx-auto "
 								src={code}
 								width={200}
 								height={200}
@@ -150,25 +150,25 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
 				<a href="https://github.com/BenuJe/p7">
-              <Image src={p7} className=" rounded-lg object-cover hover:contrast-75"  layout="responsive" alt="1" /> </a>
+              <Image src={p7} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse"  layout="responsive" alt="1" /> </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={p6} className=" rounded-lg object-cover hover:contrast-75"  layout="responsive" alt="1" />
+              <Image src={p6} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse"  layout="responsive" alt="1" />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image src={p5} className=" rounded-lg object-cover hover:contrast-75" layout="responsive" alt="1" />
+              <Image src={p5} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse" layout="responsive" alt="1" />
             </div>
             <div className="basis-1/3 flex-1">
 				<a href="https://benuje.github.io/p4/">
-              <Image src={p4} className=" rounded-lg object-cover hover:contrast-75" layout="responsive" alt="1" /></a>
+              <Image src={p4} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse" layout="responsive" alt="1" /></a>
             </div>
             <div className="basis-1/3 flex-1">
 				<a href="https://benuje.github.io/p3/">
-              <Image src={p3} className=" rounded-lg object-cover hover:contrast-75" layout="responsive" alt="1" /></a>
+              <Image src={p3} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse" layout="responsive" alt="1" /></a>
             </div>
             <div className="basis-1/3 flex-1">
 				<a href="https://benuje.github.io/P2Booky/test.html">
-              <Image src={p2} className=" rounded-lg object-cover hover:contrast-75" layout="responsive" alt="1" /></a>
+              <Image src={p2} className=" rounded-lg object-cover hover:contrast-75 hover:animate-pulse" layout="responsive" alt="1" /></a>
             </div>
           </div>
         </section>
